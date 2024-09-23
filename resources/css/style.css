@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Verdana";
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 50px;
+    margin: 25px 0;
+}
+
+.image-container {
+    margin: 25px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content h2 {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 25px 0;
+}
+
+.content p {
+    color: gray;
+    font-size: 21px;
+    margin: 25px 0;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    padding: 10px;
+}
